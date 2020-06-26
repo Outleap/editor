@@ -11,7 +11,7 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-// import Image from '@ckeditor/ckeditor5-image/src/image';
+import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
@@ -23,6 +23,7 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
+import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -34,7 +35,7 @@ BalloonEditor.builtinPlugins = [
 	Italic,
 	BlockQuote,
 	SimpleUploadAdapter,
-	// Image,
+	Image,
 	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
@@ -44,7 +45,8 @@ BalloonEditor.builtinPlugins = [
 	PasteFromOffice,
 	TextTransformation,
 	Heading,
-	HeadingButtonsUI
+	HeadingButtonsUI,
+	RemoveFormat
 ];
 
 // Editor configuration.
