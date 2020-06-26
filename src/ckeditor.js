@@ -7,7 +7,6 @@
 import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapter';
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
@@ -31,7 +30,6 @@ export default class BalloonEditor extends BalloonEditorBase {}
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [
 	Essentials,
-	UploadAdapter,
 	Autoformat,
 	Bold,
 	Italic,
@@ -56,6 +54,7 @@ BalloonEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading2',
+			'heading3',
 			'|',
 			'bold',
 			'italic',
