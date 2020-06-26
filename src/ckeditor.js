@@ -24,7 +24,6 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
-import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -47,8 +46,7 @@ BalloonEditor.builtinPlugins = [
 	PasteFromOffice,
 	TextTransformation,
 	Heading,
-	HeadingButtonsUI,
-	RemoveFormat
+	HeadingButtonsUI
 ];
 
 // Editor configuration.
