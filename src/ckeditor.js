@@ -15,7 +15,7 @@ import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 // import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 // import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 // import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
-import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
+// import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 // import Link from '@ckeditor/ckeditor5-link/src/link';
 // import List from '@ckeditor/ckeditor5-list/src/list';
 // import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
@@ -28,12 +28,12 @@ export default class BalloonEditor extends BalloonEditorBase {}
 
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [
-	Essentials,
+	Essentials
 	// Autoformat,
 	// Bold,
 	// Italic,
 	// BlockQuote,
-	SimpleUploadAdapter
+	// SimpleUploadAdapter
 	// Image,
 	// ImageCaption,
 	// ImageStyle,
