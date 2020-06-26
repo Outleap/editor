@@ -64,18 +64,13 @@ BalloonEditor.defaultConfig = {
 			'heading2',
 			'heading3',
 			'|',
-			'bold',
-			'italic',
-			'link',
-			'|',
 			'blockQuote',
 			'bulletedList',
 			'numberedList',
 			'imageUpload',
 			'|',
 			'undo',
-			'redo',
-			'removeFormat'
+			'redo'
 		]
 	},
 	blockToolbar: [
