@@ -15,7 +15,6 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
-// import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
@@ -39,7 +38,6 @@ BalloonEditor.builtinPlugins = [
 	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
-	// ImageUpload,
 	Link,
 	List,
 	Paragraph,
@@ -70,9 +68,9 @@ BalloonEditor.defaultConfig = {
 			'removeFormat'
 		]
 	},
-	// simpleUpload: {
-	// 	uploadUrl: '/articles/upload'
-	// },
+	simpleUpload: {
+		uploadUrl: '/articles/upload'
+	},
 	image: {
 		upload: {
 			types: [ 'jpeg', 'png' ]
