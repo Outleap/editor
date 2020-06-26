@@ -53,7 +53,6 @@ BalloonEditor.builtinPlugins = [
 	Heading,
 	HeadingButtonsUI,
 	RemoveFormat,
-
 	BlockToolbar
 ];
 
