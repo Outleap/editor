@@ -11,7 +11,6 @@ import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
-import EasyImage from '@ckeditor/ckeditor5-easy-image/src/easyimage';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
@@ -35,7 +34,7 @@ BalloonEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	BlockQuote,
-	EasyImage,
+	SimpleUploadAdapter,
 	Image,
 	ImageCaption,
 	ImageStyle,
@@ -47,8 +46,7 @@ BalloonEditor.builtinPlugins = [
 	PasteFromOffice,
 	TextTransformation,
 	Heading,
-	HeadingButtonsUI,
-	SimpleUploadAdapter
+	HeadingButtonsUI
 ];
 
 // Editor configuration.
