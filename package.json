@@ -97,6 +97,7 @@
   },
   "dependencies": {
     "@ckeditor/ckeditor5-remove-format": "^20.0.0",
+    "@ckeditor/ckeditor5-ui": "^20.0.0",
     "@ckeditor/ckeditor5-upload": "^20.0.0",
     "global": "^4.4.0",
     "npm-check-updates": "^7.0.1"

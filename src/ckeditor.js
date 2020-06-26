@@ -27,6 +27,8 @@ import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
+import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
+
 export default class BalloonEditor extends BalloonEditorBase {}
 
 // Plugins to include in the build.
@@ -50,7 +52,9 @@ BalloonEditor.builtinPlugins = [
 	TextTransformation,
 	Heading,
 	HeadingButtonsUI,
-	RemoveFormat
+	RemoveFormat,
+
+	BlockToolbar
 ];
 
 // Editor configuration.
@@ -74,6 +78,23 @@ BalloonEditor.defaultConfig = {
 			'removeFormat'
 		]
 	},
+	blockToolbar: [
+		'heading2',
+		'heading3',
+		'|',
+		'bold',
+		'italic',
+		'link',
+		'|',
+		'blockQuote',
+		'bulletedList',
+		'numberedList',
+		'imageUpload',
+		'|',
+		'undo',
+		'redo',
+		'removeFormat'
+	],
 	image: {
 		upload: {
 			types: [ 'jpeg', 'png' ]
