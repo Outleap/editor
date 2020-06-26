@@ -78,11 +78,11 @@ BalloonEditor.defaultConfig = {
 		upload: {
 			types: [ 'jpeg', 'png' ]
 		},
-		styles: [ 'full', 'left', 'right' ],
+		styles: [ 'full', 'alignLeft', 'alignRight' ],
 		toolbar: [
 			'imageStyle:full',
-			'imageStyle:left',
-			'imageStyle:right'
+			'imageStyle:alignLeft',
+			'imageStyle:alignRight'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
