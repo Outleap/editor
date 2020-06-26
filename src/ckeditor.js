@@ -78,6 +78,7 @@ BalloonEditor.defaultConfig = {
 		upload: {
 			types: [ 'jpeg', 'png' ]
 		},
+		styles: [ 'full', 'left', 'right' ],
 		toolbar: [
 			'imageStyle:full',
 			'imageStyle:left',
