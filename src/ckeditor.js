@@ -15,6 +15,7 @@ import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import Link from '@ckeditor/ckeditor5-link/src/link';
@@ -40,6 +41,7 @@ BalloonEditor.builtinPlugins = [
 	ImageCaption,
 	ImageStyle,
 	ImageToolbar,
+	ImageResize,
 	ImageUpload,
 	Link,
 	List,
@@ -72,18 +74,14 @@ BalloonEditor.defaultConfig = {
 			'removeFormat'
 		]
 	},
-	simpleUpload: {
-		uploadUrl: '/articles/upload'
-	},
 	image: {
 		upload: {
 			types: [ 'jpeg', 'png' ]
 		},
 		toolbar: [
 			'imageStyle:full',
-			'imageStyle:side',
-			'|',
-			'imageTextAlternative'
+			'imageStyle:alignLeft',
+			'imageStyle:alignRight'
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
