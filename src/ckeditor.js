@@ -23,7 +23,8 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-// import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
+import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -45,8 +46,9 @@ BalloonEditor.builtinPlugins = [
 	List,
 	Paragraph,
 	PasteFromOffice,
-	TextTransformation
-	// HeadingButtonsUI
+	TextTransformation,
+	Heading,
+	HeadingButtonsUI
 ];
 
 // Editor configuration.
