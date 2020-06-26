@@ -7,44 +7,44 @@
 import BalloonEditorBase from '@ckeditor/ckeditor5-editor-balloon/src/ballooneditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
-import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
-import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
-import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
-import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
+// import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
+// import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+// import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+// import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 // import Image from '@ckeditor/ckeditor5-image/src/image';
 // import ImageCaption from '@ckeditor/ckeditor5-image/src/imagecaption';
 // import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 // import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-import Link from '@ckeditor/ckeditor5-link/src/link';
-import List from '@ckeditor/ckeditor5-list/src/list';
-import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
-import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
-import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
-import Heading from '@ckeditor/ckeditor5-heading/src/heading';
-import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
+// import Link from '@ckeditor/ckeditor5-link/src/link';
+// import List from '@ckeditor/ckeditor5-list/src/list';
+// import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
+// import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
+// import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
+// import Heading from '@ckeditor/ckeditor5-heading/src/heading';
+// import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
 // Plugins to include in the build.
 BalloonEditor.builtinPlugins = [
 	Essentials,
-	Autoformat,
-	Bold,
-	Italic,
-	BlockQuote,
-	SimpleUploadAdapter,
+	// Autoformat,
+	// Bold,
+	// Italic,
+	// BlockQuote,
+	SimpleUploadAdapter
 	// Image,
 	// ImageCaption,
 	// ImageStyle,
 	// ImageToolbar,
-	Link,
-	List,
-	Paragraph,
-	PasteFromOffice,
-	TextTransformation,
-	Heading,
-	HeadingButtonsUI
+	// Link,
+	// List,
+	// Paragraph,
+	// PasteFromOffice,
+	// TextTransformation,
+	// Heading,
+	// HeadingButtonsUI
 ];
 
 // Editor configuration.
