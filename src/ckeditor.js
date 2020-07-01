@@ -66,4 +66,6 @@ BalloonEditor.builtinPlugins = [
 ];
 
 // Editor configuration.
-BalloonEditor.defaultConfig = {};
+BalloonEditor.defaultConfig = {
+	language: 'en'
+};
