@@ -26,8 +26,12 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
-
+import Table from '@ckeditor/ckeditor5-table/src/table';
+import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
+import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
+import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 
 export default class BalloonEditor extends BalloonEditorBase {}
 
@@ -53,7 +57,12 @@ BalloonEditor.builtinPlugins = [
 	Heading,
 	HeadingButtonsUI,
 	RemoveFormat,
-	BlockToolbar
+	BlockToolbar,
+	Table,
+	TableToolbar,
+	SelectAll,
+	CodeBlock,
+	MediaEmbed
 ];
 
 // Editor configuration.
