@@ -245,6 +245,17 @@
     "@ckeditor/ckeditor-cloud-services-core" "^20.0.0"
     "@ckeditor/ckeditor5-core" "^20.0.0"
 
+"@ckeditor/ckeditor5-code-block@^20.0.0":
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-code-block/-/ckeditor5-code-block-20.0.0.tgz#60ec3038079d9adabd685dd3fcc3047ad5708003"
+  integrity sha512-UWx/6jw1oIVnXQYLBC5CLB1pu71pbLz0YMKC3VZLFTZF72ke71dhMws1Cwcp5rPxM/9GXWYVbdbPfNu8W0juAQ==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^20.0.0"
+    "@ckeditor/ckeditor5-enter" "^20.0.0"
+    "@ckeditor/ckeditor5-ui" "^20.0.0"
+    "@ckeditor/ckeditor5-utils" "^20.0.0"
+    lodash-es "^4.17.15"
+
 "@ckeditor/ckeditor5-core@^20.0.0":
   version "20.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-20.0.0.tgz#40319c9584b9eb6d38e18b54c493e65dd25c399e"
