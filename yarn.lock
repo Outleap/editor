@@ -217,6 +217,11 @@
     "@ckeditor/ckeditor5-ui" "^20.0.0"
     "@ckeditor/ckeditor5-utils" "^20.0.0"
 
+"@ckeditor/ckeditor5-build-classic@^20.0.0":
+  version "20.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-build-classic/-/ckeditor5-build-classic-20.0.0.tgz#cbfb380baa632fd32ef007d92880e6656652f985"
+  integrity sha512-RlKMQUMzaoKQA09q/9ty4LQ+kdXZhzI6rsOzbAudBJzFX+FcY+48z9qr6EwYn9CdnCv9v0SjFi0K20s/Nb+Nkg==
+
 "@ckeditor/ckeditor5-ckfinder@^20.0.0":
   version "20.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-20.0.0.tgz#91aa7682c1c0065907a46b19863e753334898f31"
