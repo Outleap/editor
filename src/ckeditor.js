@@ -18,7 +18,7 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
-// import Link from '@ckeditor/ckeditor5-link/src/link';
+import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
@@ -32,7 +32,7 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-import Anchor from 'ckeditor5-anchor/src/anchor';
+import 'ckeditor5-anchor/src/anchor';
 import Gallery from 'outleap-ckeditor5-gallery/src/gallery';
 import '@ckeditor/ckeditor5-build-classic/build/translations/de.js';
 
@@ -52,7 +52,7 @@ BalloonEditor.builtinPlugins = [
 	ImageToolbar,
 	ImageResize,
 	ImageUpload,
-	Anchor,
+	Link,
 	List,
 	Paragraph,
 	PasteFromOffice,
