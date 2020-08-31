@@ -32,7 +32,7 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
-import Anchor from 'ckeditor5-anchor/src/anchor';
+// import Anchor from 'ckeditor5-anchor/src/anchor';
 import Gallery from 'outleap-ckeditor5-gallery/src/gallery';
 import '@ckeditor/ckeditor5-build-classic/build/translations/de.js';
 
