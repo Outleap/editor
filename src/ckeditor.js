@@ -66,8 +66,7 @@ BalloonEditor.builtinPlugins = [
 	SelectAll,
 	CodeBlock,
 	MediaEmbed,
-	Gallery,
-	Anchor
+	Gallery
 ];
 
 // Editor configuration.
