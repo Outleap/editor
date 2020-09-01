@@ -1,4 +1,4 @@
-Changelog
+ackChangelog
 =========
 
 ## [19.0.0](https://github.com/ckeditor/ckeditor5-build-balloon/compare/v18.0.0...v19.0.0) (2020-04-29)
