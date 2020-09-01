@@ -183,14 +183,6 @@
   dependencies:
     "@ckeditor/ckeditor5-utils" "^22.0.0"
 
-"@ckeditor/ckeditor5-adapter-ckfinder@^22.0.0":
-  version "22.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-adapter-ckfinder/-/ckeditor5-adapter-ckfinder-22.0.0.tgz#06bfd694cec85b2804123f17a693ba5667f4bd46"
-  integrity sha512-KY4YrhRvMvwQa+jdhbtXoQk0mZYbjv8LjDhHnrPUU0eflgnbKmvtWhvlXOg+sJKebDN3wT2UZF1PwKJr2hG4Cg==
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^22.0.0"
-    "@ckeditor/ckeditor5-upload" "^22.0.0"
-
 "@ckeditor/ckeditor5-autoformat@^22.0.0":
   version "22.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-autoformat/-/ckeditor5-autoformat-22.0.0.tgz#5edbaca633b0b1013d22b32e6d7bf54528da55bd"
@@ -221,17 +213,6 @@
   version "22.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-build-classic/-/ckeditor5-build-classic-22.0.0.tgz#24e4a32a4d68211c58b4ea49e794217bd61bf0b7"
   integrity sha512-Vcy7vqSDv1xH6ACi2RW25+wIEEKrzEYb+dpgL/yTfhqv0wlswl4tn1VOfEbzGNrgQCio3djxkF813be29IfmWA==
-
-"@ckeditor/ckeditor5-ckfinder@^22.0.0":
-  version "22.0.0"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-ckfinder/-/ckeditor5-ckfinder-22.0.0.tgz#9c1cfb8f3022b9746446545c774d495edb2d05df"
-  integrity sha512-C0G5jHJSc75aiECgaZgW0ge1mSP1idkGQY6EGOqA/DD3sftT7szGpUO0NZ1qP5RyL9sXgLTxU7reCf2gyZsBmg==
-  dependencies:
-    "@ckeditor/ckeditor5-adapter-ckfinder" "^22.0.0"
-    "@ckeditor/ckeditor5-core" "^22.0.0"
-    "@ckeditor/ckeditor5-image" "^22.0.0"
-    "@ckeditor/ckeditor5-link" "^22.0.0"
-    "@ckeditor/ckeditor5-ui" "^22.0.0"
 
 "@ckeditor/ckeditor5-clipboard@^22.0.0":
   version "22.0.0"
