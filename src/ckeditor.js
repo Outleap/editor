@@ -33,7 +33,7 @@ import SelectAll from '@ckeditor/ckeditor5-select-all/src/selectall';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
 import PageBreak from '@ckeditor/ckeditor5-page-break/src/pagebreak';
-import Gallery from 'outleap-ckeditor5-gallery/src/gallery';
+// import Gallery from 'outleap-ckeditor5-gallery/src/gallery';
 import '@ckeditor/ckeditor5-build-classic/build/translations/de.js';
 
 class Editor extends BalloonEditorBase {}
@@ -66,7 +66,7 @@ Editor.builtinPlugins = [
 	SelectAll,
 	CodeBlock,
 	MediaEmbed,
-	Gallery,
+	// Gallery,
 	PageBreak
 ];
 
