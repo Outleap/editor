@@ -5104,7 +5104,7 @@ osenv@^0.1.4:
 
 "outleap-ckeditor5-gallery@https://github.com/Outleap/ckeditor5-gallery":
   version "1.0.0"
-  resolved "https://github.com/Outleap/ckeditor5-gallery#d76f4035ca740bbc9f38466c579e8b31d6c04ba5"
+  resolved "https://github.com/Outleap/ckeditor5-gallery#ba190c7044d94bc200c33556a4299716943397c6"
   dependencies:
     "@ckeditor/ckeditor5-core" "^22.0.0"
     "@ckeditor/ckeditor5-ui" "^22.0.0"
